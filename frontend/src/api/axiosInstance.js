@@ -2,7 +2,7 @@ import axios from 'axios';
 
 // 1️⃣ Create Axios instance
 const axiosInstance = axios.create({
-  baseURL: 'https://mern-stack-note-app-lyart.vercel.app/', // 👈 change this if your backend URL is different
+  baseURL: 'https://mern-note-application-weld.vercel.app/', // 👈 change this if your backend URL is different
 });
 
 // 2️⃣ Add a request interceptor to include JWT token automatically
